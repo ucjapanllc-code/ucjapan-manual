@@ -415,7 +415,7 @@ body {
 /* ---------- Search Results ---------- */
 #search-results {
   display: none;
-  position: absolute;
+  position: fixed;
   top: calc(var(--header-h) + 4px);
   left: 50%;
   transform: translateX(-50%);
